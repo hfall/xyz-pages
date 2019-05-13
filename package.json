@@ -5,8 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "deploy": "./deploy.sh"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^2.6.5",
@@ -22,7 +21,6 @@
     "vue-template-compiler": "^2.5.21"
   },
   "gitHooks": {
-    "pre-commit": "npm run lint",
     "pre-push": "npm run lint"
   },
   "eslintConfig": {
