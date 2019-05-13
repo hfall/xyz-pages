@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Site currently under Maintenance"/>
+    <HelloWorld msg="Site currently under Maintenance. Please Try again later."/>
   </div>
 </template>
 
